@@ -1,0 +1,145 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.task-list-container {
+  margin: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #ffa500; /* Orange/yellow color */
+}
+
+/* Search container */
+.search-container {
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+/* Task table */
+.task-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.task-table th,
+.task-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-table th {
+  background-color: #ffa500; /* Orange/yellow color */
+  color: white;
+}
+
+.task-table tr:hover {
+  background-color: #fff0d4; /* Soft yellow hover effect */
+}
+
+/* Buttons */
+button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #ffa500; /* Orange/yellow color */
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff7b00; /* Darker orange on hover */
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+}
+
+.modal-content h2 {
+  margin-bottom: 10px;
+}
+
+.modal-content input,
+.modal-content textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.modal-content label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.modal-content button {
+  margin-right: 10px;
+}
+
+/* TaskList.css */
+.task-list-container {
+    /* Increase the size of the container */
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    
+    /* Center the content in the middle of the screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    /* Add padding and box-sizing */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.task-list-container h2 {
+    /* Increase font size for the header */
+    font-size: 2rem;
+}
+
+.task-table table, .task-table th, .task-table td {
+    /* Increase font size for the table elements */
+    font-size: 1.5rem;
+}
+
+input, textarea, button {
+    /* Increase font size for input, textarea, and buttons */
+    font-size: 1.2rem;
+}
+
+.search-container input {
+    /* Increase font size for search input */
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* You can further adjust other elements as needed */

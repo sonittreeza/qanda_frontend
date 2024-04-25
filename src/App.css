@@ -1,0 +1,35 @@
+.App {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px 0;
+  color: white;
+}
+
+.App-header h1 {
+  margin: 0;
+}
+
+.App-main {
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.App-footer {
+  background-color: #282c34;
+  color: white;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
